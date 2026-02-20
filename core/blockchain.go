@@ -229,7 +229,7 @@ func DiffTransactionSlices(a, b TransactionSlice) (diff TransactionSlice) {
 			}
 		}
 		if !found {
-			//diff = append(diff, t)
+			diff = append(diff, t)
 		}
 	}
 
