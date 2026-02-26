@@ -8,9 +8,9 @@ panic: runtime error: invalid memory address or nil pointer dereference
 
 goroutine 8 [running]:
 tps-testing/core.Nodes.AddNode(0xc0001bfec8?, 0xc000012030)
-	/home/lojak/Desktop/atlas-sphere-master/TPS TESTING/core/net.go:34 +0x25
+	/home/lojak/Desktop/x3-chain-master/TPS TESTING/core/net.go:34 +0x25
 tps-testing/core.(*Network).Run(0xc0001d2040)
-	/home/lojak/Desktop/atlas-sphere-master/TPS TESTING/core/net.go:118 +0x1ae
+	/home/lojak/Desktop/x3-chain-master/TPS TESTING/core/net.go:118 +0x1ae
 created by tps-testing/core.Start
-	/home/lojak/Desktop/atlas-sphere-master/TPS TESTING/core/main.go:30 +0x14c
+	/home/lojak/Desktop/x3-chain-master/TPS TESTING/core/main.go:30 +0x14c
 exit status 2
